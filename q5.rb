@@ -11,7 +11,8 @@ end
 puts result
 
 
-# それでもforで記述した場合
+
+# forで記述した場合
 n = gets.to_i
 a = gets.split.map(&:to_i)
 result = "No"

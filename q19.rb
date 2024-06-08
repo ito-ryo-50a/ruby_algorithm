@@ -21,6 +21,8 @@ end
 puts a.join(' ')  # 空白区切りで1行に出力
 
 
+
+
 module SequenceExtensions
   def reverse_in_range!(*args)
     self[*args] = self[*args].reverse!

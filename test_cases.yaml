@@ -1,15 +1,33 @@
+# 使い方は下部に記述があります。
 - input: |
-    1
-    2 3
-    hello
-  output: "6 hello"
+    
+    
+    
+  output: ""
 - input: |
-    4
-    5 6
-    world
-  output: "15 world"
+    
+    
+    
+  output: ""
 - input: |
-    7
-    8 9
-    ruby
-  output: "24 ruby"
+    
+    
+    
+  output: ""
+
+# 以下の例を参考にして入力例と出力例をコピペしてください。
+# - input: |
+#     1
+#     2 3
+#     hello
+#   output: "6 hello"
+# - input: |
+#     4
+#     5 6
+#     world
+#   output: "15 world"
+# - input: |
+#     7
+#     8 9
+#     ruby
+#   output: "24 ruby"

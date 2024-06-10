@@ -1,20 +1,13 @@
 # 使い方は下部に記述
 # テストケースが３パターン未満の場合は空欄をコメントアウト
 - input: |
-    
-    
-    
-  output: ""
+    4 3 2
+  output: "YES"
 - input: |
-    
-    
-    
-  output: ""
-- input: |
-    
-    
-    
-  output: ""
+    2 3 4
+  output: "NO"
+# - input: |
+#   output: ""
 
 # 以下を参考に入力例と出力例をコピペ
 # - input: |

@@ -5,6 +5,7 @@ n = gets.to_i
 res = (n + 1) / 2
 puts res
 
+
 # ACしたコード
 n = gets.to_i
 res = 0

@@ -6,6 +6,7 @@ b, c = gets.split.map(&:to_i)
 s = gets.chomp
 puts "#{a + b + c} #{s}"
 
+
 # ACしたコード
 # map{ |value| value.to_i } と　　map(&:to_i)　は同じ内容
 number_a = gets.chomp.to_i

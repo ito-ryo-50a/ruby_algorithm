@@ -5,6 +5,7 @@ r, g, b = gets.split.map(&:to_i)
 res = "#{r}#{g}#{b}".to_i
 res % 4 == 0 ? (puts "YES") : (puts "NO")
 
+
 # ACしたコード
 r, g, b = gets.split.map(&:to_i)
 res = "#{r}#{g}#{b}".to_i

@@ -1,12 +1,11 @@
 # binary_search.rb
 # 標準入力から取得したarrのソートはパフォーマンスを考慮して分けて記述
 
-
 array = gets.split.map(&:to_i)
 array = array.sort
 low = 0
 high = array.length - 1
-target = 9  # 探索する目標に置き換える
+target = 9  # 探索する値に置換
 result = -1
 while low <= high do
   mid = (low + high) / 2
@@ -22,6 +21,24 @@ end
 puts result
 
 
-# ex
-# input #=> 10 7 9 4 5 1 6 3 8 2
-# output #=> 8
+
+# テスト実行時はコメント解除し下記コマンド実行
+# `ruby method/test/binary_search_test.rb`
+# def binary_search(array, target)
+#   array = array.sort
+#   low = 0
+#   high = array.length - 1
+#   result = -1
+#   while low <= high do
+#     mid = (low + high) / 2
+#     if array[mid] == target
+#       result = mid
+#       break
+#     elsif array[mid] < target
+#       low = mid + 1
+#     else
+#       high = mid - 1
+#     end
+#   end
+#   result
+# end

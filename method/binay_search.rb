@@ -20,3 +20,8 @@ while low <= high do
   end
 end
 puts result
+
+
+# ex
+# input #=> 10 7 9 4 5 1 6 3 8 2
+# output #=> 8

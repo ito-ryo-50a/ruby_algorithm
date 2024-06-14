@@ -13,8 +13,8 @@ puts array.join(' ')
 
 
 
-# 確認用
-#
+# # 確認用
+
 # array = gets.split.map(&:to_i)
 # # 入力値を整数型に変換して配列に格納
 # len = array.length

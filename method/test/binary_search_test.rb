@@ -9,24 +9,24 @@ class BinarySearchTest < Minitest::Test
     expected_result = 8
     assert_equal expected_result, binary_search(array, target)
 
-    # case1: ターゲットが配列の中に存在しない場合
+    # case2: ターゲットが配列の中に存在しない場合
     array = [10, 7, 9, 4, 5, 1, 6, 3, 8, 2]
     target = 11
     expected_result = -1
     assert_equal expected_result, binary_search(array, target)
-    # case1: 与えられた配列が空値の場合
+    # case3: 与えられた配列が空値の場合
     array = []
     target = 9
     expected_result = -1
     assert_equal expected_result, binary_search(array, target)
 
-    # case1: 配列に1つの要素しかない場合
+    # case4: 配列に1つの要素しかない場合
     array = [9]
     target = 9
     expected_result = 0
     assert_equal expected_result, binary_search(array, target)
 
-    # case1: 配列に1つの要素しかない、かつターゲットが存在しない場合
+    # case5: 配列に1つの要素しかない、かつターゲットが存在しない場合
     array = [10]
     target = 9
     expected_result = -1

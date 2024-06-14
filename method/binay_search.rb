@@ -24,6 +24,7 @@ puts result
 
 # テスト実行時はコメント解除し下記コマンド実行
 # `ruby method/test/binary_search_test.rb`
+
 # def binary_search(array, target)
 #   array = array.sort
 #   low = 0

@@ -2,7 +2,12 @@
 
 
 #　リファクタリングしたコード
-
+S, T = gets.split
+if S == "AtCoder" && T == "Land"
+  puts "Yes"
+else
+  puts "No"
+end
 
 # ACしたコード
 S, T = gets.split.map(&:to_i)
